@@ -21,9 +21,9 @@ const roundSum = Math.ceil(sume * 100)/ 100 // Damit wir ein ,00  zahl haben (ce
 console.log(roundSum);
 // --------------------------------
 //                0 - 0 ,0000000 es wird nie eins
-// const randomOne = Math.floor(Math.random() * 49 )+ 1;
-// console.log(randomOne);
+const randomOne = Math.floor(Math.random() * 49 )+ 1;
+console.log(randomOne);
 
 
-// let testing = Math.floor(parseFloat(20.3)) + 1;
-// console.log(testing) 
+let testing = Math.floor(parseFloat(20.3)) + 1;
+console.log(testing);

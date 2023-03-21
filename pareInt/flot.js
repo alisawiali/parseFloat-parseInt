@@ -14,3 +14,6 @@ console.log("---- parseFloat() ------")
 
 
  console.log("---- (e)--Number(Max)---->,00------")
+
+ let mydo =document.querySelectorAll(".h1");
+console.log(mydo)
