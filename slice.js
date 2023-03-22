@@ -29,3 +29,4 @@ if(meinNachName.lastIndexOf(0,3) === ""){
 }else{
     console.log("Name nicht gefunden")
 }
+

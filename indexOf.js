@@ -32,4 +32,5 @@ console.log(testlastIndexOf.lastIndexOf("i"));
 //-----------------------------------
     let i = "Alisawi";
 
-console.log(i.indexOf("i")? "Good": "not gooot")
+console.log(i.indexOf("i")? "Good": "not gooot");
+
