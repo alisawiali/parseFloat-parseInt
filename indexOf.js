@@ -8,7 +8,7 @@ String Methode
 
 const testIndexOf = "Hallo welt in Berlin";
 
-if(testIndexOf.indexOf("w",7) === 6){
+if(testIndexOf.indexOf("w",6) === 6){
     console.log("hallo welt in berlin");
 }else{
     console.log("leider versuchen sie später");
@@ -28,3 +28,8 @@ console.log(testlastIndexOf.lastIndexOf("i"));
     }else{
         console.log(testlastIndexOf.toLocaleLowerCase())
     }
+
+//-----------------------------------
+    let i = "Alisawi";
+
+console.log(i.indexOf("i")? "Good": "not gooot")

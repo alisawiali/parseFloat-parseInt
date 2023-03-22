@@ -14,7 +14,7 @@ if (discount === true) {
 
     if (student === true) {
         price -= discountAmount - 10;
-        if(age >= 18){
+        if (age >= 18) {
             price -= discountAmount - 10;
         }
     } else {
@@ -30,6 +30,32 @@ console.log(price)
 console.log('age', age ?? 100)
 
 //--------------------
-let i = "Alisawi";
+console.log("<----------------Chalang----------------->")
+let job = "Manger";
+let salary ;
 
-console.log(i.indexOf("i")? "Good": "not gooot")
+switch (job) {
+    case "Manger":
+    salary = 1000;
+    console.log(`salary Is ==> ${salary}`);
+    break;
+    case "IT":
+    salary = 2000;
+    console.log(`salary Is ==> ${salary}`);
+    break;
+    default:
+        salary = 1000;
+        console.log(`ich bin mit dem ${salary} und als Verkäüfer zufriden`)
+}
+
+if(job === "Mantor"){
+   salary = 6000;
+    console.log(`Manger bin ich und  mein  ${salary} $`)
+}else if(job === "IT" || job === "Schneider"){
+    salary = 1000;
+    console.log(`Ich bin It Manger und mein ${salary} $`);
+
+}else if(job === "chefreise" || job === "Taxifahre"){
+    salary = 3000;
+    console.log(`ich bin Taxifahrer und mein ${salary} $`)
+}
