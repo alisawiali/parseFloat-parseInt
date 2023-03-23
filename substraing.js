@@ -52,3 +52,6 @@ console.log(sub.startsWith("S")); //  treu
 console.log(sub.startsWith("ch",1)); // treu => fängt mit  2 ch 
 console.log(sub.endsWith("s")); //  false
 console.log(sub.endsWith("e")); // treu
+//-----------------------------------------
+console.log("//-----------------------------------------")
+
