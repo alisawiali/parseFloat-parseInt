@@ -19,7 +19,7 @@ console.log('slice Methode',myFrindHome.slice(1,-1)); // Amer Imad
 console.log("Splice ---------------------------->")
 //           Anfängt,
 //            Platzt,Zahl,fügen
-myFrindHome.splice(3,1,"Bitar","Sayed")
+myFrindHome.splice(2,2,"Bitar","Sayed")
 console.log(myFrindHome)
 // 
 
@@ -27,23 +27,23 @@ console.log(myFrindHome)
 
 
 // Challenge Array
-let zero = 0;
-let counter = 3;
-let my = ["Ahmed","Mazero","Elham","Osama","Gamal","Amer"];
+// let zero = 0;
+// let counter = 3;
+// let my = ["Ahmed","Mazero","Elham","Osama","Gamal","Amer"];
 
-let reves = my.reverse();
-console.log(reves.slice(--counter)) // ["Osama","Elham","Mazero","Ahmed"]
-++counter;
-++zero;
-console.log(reves.slice(counter, ++counter + zero))
+// let reves = my.reverse();
+// console.log(reves.slice(--counter)) // ["Osama","Elham","Mazero","Ahmed"]
+// ++counter;
+// ++zero;
+// console.log(reves.slice(counter, ++counter + zero))
 
-let nameZ = my.unshift("Elzero");
-console.log(my.slice(0,zero));
+// let nameZ = my.unshift("Elzero");
+// console.log(my.slice(0,zero));
 
 
-let r = my[++counter,counter][--counter];
-let o = my[++counter,counter][counter].toUpperCase();
-let ao = r+o;
-let fo = my.unshift(ao);
- console.log(my.slice(--zero,++zero));
+// let r = my[++counter,counter][--counter];
+// let o = my[++counter,counter][counter].toUpperCase();
+// let ao = r+o;
+// let fo = my.unshift(ao);
+//  console.log(my.slice(--zero,++zero));
 
