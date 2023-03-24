@@ -19,7 +19,7 @@ console.log('slice Methode',myFrindHome.slice(1,-1)); // Amer Imad
 console.log("Splice ---------------------------->")
 //           Anfängt,
 //            Platzt,Zahl,fügen
-myFrindHome.splice(2,2,"Bitar","Sayed")
+myFrindHome.splice(0,1,"Bitar","Sayed")
 console.log(myFrindHome)
 // 
 
