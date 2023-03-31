@@ -5,6 +5,7 @@ Loop
 --  Nested Loops Training 
 */ 
 
+
 let myFreind = [1,"Imad","Omer","Alaa",2,3,4,5,6,"Amer","Ali"];
 let onlyName = [];
 
@@ -35,6 +36,16 @@ for(let i = 0; i < product.length;i++){
         }
    }
 }
+console.log('###-----------------')
+let names = [ "Imad","Ali","alisawi"];
+let nam = "Ali";
+for(let i = 0; i <names.length;i++){
+    let num = names[i]
+    if(num.includes (nam)){
+        console.log("Ali ist hier" , num + i)
+    }
+}
+
 
 // ------------------------------------------------
 // console.log('---------------------------->')

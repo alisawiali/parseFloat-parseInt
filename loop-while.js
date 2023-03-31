@@ -32,3 +32,5 @@ for (let x = 0; x < myLoopWhilenames.length; x++) {
     }
     console.log(`Stätte is `,text)
 }
+
+
