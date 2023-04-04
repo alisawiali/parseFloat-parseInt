@@ -6,7 +6,7 @@
 
 console.log("##########----------------->");
 function gehalt(name = "Omer", salary = 12) {
-  return `Es ist Ende des Monats, ${name} und bekommt ${salary * 40 * 4}`; // 12 * 40 * 4  = 1.920
+  return `Es ist Ende des Monats, ${name.join("")} und bekommt ${salary * 40 * 4}`; // 12 * 40 * 4  = 1.920
 }
 console.log(gehalt("Imad"));
 console.log(gehalt("Markus", 16));
@@ -48,4 +48,5 @@ greetALL('Guten Morgen','Imad','Ali')
  const three = ['Alla','Ahmed'];
 
  const allCast = [...one, ...tow, ...three] // zusammen 
- console.log(allCast.length, allCast) // namen und Zahl (6)
+ console.log(allCast.length, allCast) // namen und Zahl (6);
+
