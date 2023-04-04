@@ -24,15 +24,13 @@ greetALL("Guten Morgen", "Andre", "Taher ", "Ahmed", "Alla");
 greetALL('Guten Morgen','Imad','Ali')
 
 
-let namens = ['Alisawi','Alia','Marianne'];
-//                     Spread Parameter
- greetALL('Guten Morgen',...namens)
 
  console.log("##########----------------->");
  console.log()
 
  const peopFrüh = ['Markus','Ahmed','Maxim'];
  const peopleLetter = ['Paul','Peter'];
+ //                     Spread Parameter
  const allPeopel = [...peopFrüh,...peopleLetter]
 
  console.log(` Heute sind die Leute ${allPeopel} anwesend`);
@@ -41,3 +39,13 @@ let namens = ['Alisawi','Alia','Marianne'];
  const test = ["Imaaaad"];
  test.push(...allPeopel)
  console.log(test)
+
+ console.log("##########----------------->");
+ console.log()
+
+ const one = ["Alisawi",'Amer'];
+ const tow = ['Ali','Omer'];
+ const three = ['Alla','Ahmed'];
+
+ const allCast = [...one, ...tow, ...three] // zusammen 
+ console.log(allCast.length, allCast) // namen und Zahl (6)
