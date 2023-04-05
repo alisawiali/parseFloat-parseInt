@@ -51,3 +51,19 @@ let mixContent = mix.split("").filter((e)=>{
 })
 .join("")
 console.log(mixContent)
+
+let mixedArray = [1, 2.5, "hello", 6, 0.8, 8, "world", 10];
+function filterIntegers(arr) {
+  // write your code here
+  return arr.filter(Number.isInteger);
+
+}
+console.log(2, filterIntegers(mixedArray));
+console.log('#####')
+
+let mixedArrays = [1, 2.5, "hello", 6, 0.8, 8, "world", 10]
+let rest = mixedArrays.filter((e)=>{
+  return  !isNaN((e))
+  
+})
+console.log(rest)
