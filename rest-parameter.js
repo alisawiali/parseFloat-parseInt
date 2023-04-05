@@ -13,4 +13,6 @@ function tople(...test) {
 
 console.log(tople(1, 2, 3)); // 6
 console.log(tople(1, 2, 3, 4, 5)); // 15
-console.log(tople(1, 2));
+console.log(tople(1, 2))
+
+

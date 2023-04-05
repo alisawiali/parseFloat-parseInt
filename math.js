@@ -51,3 +51,11 @@ console.log(Math.random(testRaoundom)); // bringt  zahl durcheinander
 console.log("<------------trunc------------->")
 const testTrunc = 11.3;
 console.log('Math.trunc  nimmt weg und brginz integer nummer',Math.trunc(testTrunc))
+
+
+console.log('##################')
+let number = Math.floor(Math.random() * 10);
+
+while (number !== 10) {
+  console.log(++number);
+}
