@@ -10,10 +10,10 @@ let number = [1, 2, 3, 5, 6];
 
 
 let addfilter = names.filter((e) => {
-  return e.startsWith("s") ? true : false;
+  return e.startsWith("s");
 });
 console.log(addfilter);
-
+console.log('####--------')
 let addfilters = number.filter((e) => {
   return e % 2 === 0 ? true : false;
 });

@@ -34,3 +34,59 @@ console.table(namees.firstName[3][1]);
 //console.table(namees["country of"])
 console.log(namees.myVar); // undefiend
 console.log(namees[myVar]); // Deutschland
+
+console.log("#######-------->");
+let array = new Object({
+  name: "Imad",
+  age: 23,
+  skills: ["IT", "Paython", "C++"],
+  availabel: false,
+  land: {
+    firstLand: "Iraq",
+    secounfLand: "Deutland",
+    telefoun: {
+      one: 123345908272,
+      tow: 7654321,
+    },
+  },
+
+  sayHallo: function () {
+    if (this.availabel !== true) {
+      return " Imad Alisawi";
+    } else {
+      return "Versuchen Sie es später bitte";
+    }
+  },
+});
+console.log(array.age);
+console.log(
+  "Ich Arbeite ",
+  array.skills[2],
+  "als Programiere sprache  und " + `ich heiße ${array.name}`
+);
+console.log(
+  array.land.firstLand +
+    `und mein TeleNummner im Ausland ist  ${array.land.telefoun.one}`
+);
+console.log(array["age"]);
+console.log(array["land"]["firstLand"]);
+
+console.log("########-------########");
+console.clear()
+console.log('-------------This keyword')
+let users ={
+    age :36,
+    ageFunction :function(){
+        return users.age * 2 + " Days "
+    }
+}
+console.log(users.age)
+console.log(users.ageFunction())
+
+let job = Object.create(users)
+job.age = 100;
+
+
+console.log(job.age)
+console.log(job.ageFunction())
+console.log(job)

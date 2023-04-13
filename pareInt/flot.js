@@ -23,7 +23,7 @@
 let prod = ["Imad", " Alla", "Ahud", "Amer", "Ali", "MArianne"];
 let colors = ["red", "Black", "green"]
 let text = "The Admin For Team I is";
-let calc = 6;
+let calc = 2;
 nas = ["imad","Ali"]
 
 document.write(`<h1>The best ${calc} Product</h1>`)

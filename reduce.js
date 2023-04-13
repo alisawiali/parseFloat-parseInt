@@ -10,7 +10,7 @@ let sum = calc.reduce((acc, current, index, a) => {
   return acc + current;
 }, 10);
 console.log(sum);
-console.log("######  <------------------->  #######");
+console.log("######  <----------one--------->  #######");
 // hier holen wir das kleine length innder Array
 let names = ["Imad", "Ali", "Omer", "Amer", "Alisawi"];
 
@@ -26,13 +26,23 @@ let myFrinds = ["i", "@", "@", "m", "@", "a", "d"];
 
 let filt = myFrinds
   .filter((e) => {
-    return !e.startsWith("@");
+    return e.startsWith("@");
   })
   .reduce((acc, current) => {
 
-    return `${acc}${current}`;
+    return `${acc} ${current}`;
   })
 
 // Reduce ist gleich join()
 
 console.log(filt);
+console.log("######  <---------Three---------->  #######");
+
+
+let testing = [10,20,30,40];
+console.log(testing)
+let block = testing.reduce((e,x)=>{
+  return (e + x) * 2
+})
+
+console.log(block)

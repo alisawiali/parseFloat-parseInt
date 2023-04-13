@@ -18,7 +18,7 @@ console.log(`Ergebnus des Auto : ${obel >= bmw && wW >= masrdes}`) // treu
 // ------------------------------------>
 console.log("Tow Exsam-------->")
 const num = 2;
-console.log('Die  number ist ', num !== 2 ? true : false);
+console.log('Die  number ist  ', num !== 2 ? true : false);
 
 console.log("Three Exsam-------->");
 const sum = true;
