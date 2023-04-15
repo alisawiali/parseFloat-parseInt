@@ -46,3 +46,11 @@ let block = testing.reduce((e,x)=>{
 })
 
 console.log(block)
+
+console.log("######  <---------Reduce---------->  #######");
+
+let arr = [10,20,30,40,50];
+let myReduce = arr.reduce((e,w)=>{
+  return e + w
+})
+console.log(myReduce)

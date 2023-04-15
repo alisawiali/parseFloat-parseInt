@@ -67,3 +67,15 @@ let rest = mixedArrays.filter((e)=>{
   
 })
 console.log(rest)
+
+console.log('-------filter------------')
+
+let arr = [10,20,30,40,50];
+let myFilter = arr.filter((e)=>{
+  return e < 33 // kleinste als 33  10, 20, 30
+
+  // if(e < 33){
+  //   return true
+  // }
+}).join(", ")
+console.log(myFilter)

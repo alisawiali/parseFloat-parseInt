@@ -17,3 +17,10 @@ console.log('-------------------')
 let aree = new Map();
 aree.set("10", "hallo").set(10, "Imad").set(false, "Boolean");
 console.log(aree);
+
+console.log('---------Map ----------')
+let arr = [10,20,30,40,50];
+let myMap = arr.map((e)=>{
+  return e * 10
+})
+console.log(myMap)
