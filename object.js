@@ -59,10 +59,7 @@ let array = new Object({
   },
 });
 console.log(array.age);
-console.log(
-  "Ich Arbeite ",
-  array.skills[2],
-  "als Programiere sprache  und " + `ich heiße ${array.name}`
+console.log("Ich Arbeite ",array.skills[2],"als Programiere sprache  und " + `ich heiße ${array.name}`
 );
 console.log(
   array.land.firstLand +
@@ -90,3 +87,27 @@ job.age = 100;
 console.log(job.age)
 console.log(job.ageFunction())
 console.log(job)
+
+
+console.log('####################')
+let lehrer = [
+  {
+    name: "Imad",
+    age: 33,
+  },
+  {
+    name: "Amer",
+    age: 40,
+  },
+];
+
+
+ function main(){
+  for (let i = 0; i < lehrer.length; i++) {
+    //  let person = lehrer[i]
+    //  console.log(`${person.name} ist ${person.age}`) 
+      return`${lehrer[i].name} ist ${lehrer[i].age}`;
+  }
+  
+ }
+ main()
