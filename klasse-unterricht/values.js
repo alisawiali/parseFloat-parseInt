@@ -34,4 +34,17 @@ const onlyParProduct = Object.fromEntries([
 console.log(onlyParProduct);
 
 
+console.log()
+console.log('#################--------------------------->')
+function getValues(object) {
+    return Object.values(object);
+  }
+  
+  console.log(
+    "Resultat Value 2:",
+    getValues({ choice1: "Tee", choice2: "Kaffee", choice3: "Milch" })
+  );
+  // [ 'Tee', 'Kaffee', 'Milch' ]
+
+
 

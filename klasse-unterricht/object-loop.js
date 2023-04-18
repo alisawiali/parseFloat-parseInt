@@ -12,3 +12,5 @@ const products =
   for (key in products) {
     console.log(`${key}: ${products[key]} `)   
   }
+
+
