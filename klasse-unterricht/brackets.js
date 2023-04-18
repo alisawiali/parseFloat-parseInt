@@ -24,4 +24,4 @@ function  myProduct(obj, prop, value){
     obj[prop] = value; // obj.name bracket notation 
     return obj
 }
-console.log(myProduct(products[0],'price',2000))
+console.log(myProduct(products[1],'price',2000))
