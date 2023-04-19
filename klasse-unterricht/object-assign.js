@@ -16,4 +16,4 @@ let testing =
   }
 
 Object.assign(products, testing)
-console.log(products)
+console.log(testing)

@@ -34,12 +34,10 @@ for (let index = 0; index < productPreportyArray.length; index++) {
 htmlSelectString += "</select>";
 console.log(htmlSelectString);
 
-console.log('#############')
+console.log("#############");
 function getProperties(object) {
   return Object.keys(object);
 }
 const student = { name: "Mike", class: "4A", course: "English" };
 const studentsProperits = getProperties(student);
 console.log("Resultat Keys 1:", studentsProperits); // [ 'name', 'class', 'course' ]
-
-console.log();
