@@ -11,7 +11,8 @@ const bValue = ["one", 2, "three"];
 const [o, , t] = bValue;
 console.log(o, t);
 
-const [x1 = "1", x2 = "2", x3 = "3", x4 = "default 4"] = aValue;
+console.log("########---------------------------------------------")
+const [x1 = "1", x2 = "2", x3 = "3", x4 = "default  4"] = aValue;
 console.log("array with default:", x1, x2, x3, x4);
 
 // objects
@@ -107,33 +108,3 @@ const { a, b, c } = obj;
 // const b = obj.b;
 // const c = obj.c;
 console.log(a, b + c, c[0], c.indexOf("c"));
-
-const userObj = {
-  username: "icke",
-  password: "pass",
-  status: "active",
-  avartarUrl: "./avatar.jpg",
-  o: { copyOrRef: "ref" },
-};
-
-// rest parameter innerhalb destructuring
-
-const { username: userName, ...hiddenObjectProperties } = userObj;
-hiddenObjectProperties.password = "changed";
-hiddenObjectProperties.o.copyOrRef = "changed";
-console.log("user original", userObj);
-console.log("hidden object", userName, hiddenObjectProperties);
-
-const arr = ["index0", "index1", 1, 2, 3];
-const [index0, index1, , x, y] = arr;
-console.log(index0, index1, x + y);
-
-const [, i1, , ...restArrayValues] = ["index0", "index1", 1, 2, 3];
-console.log(i1, restArrayValues);
-
-// rest parameter als funktionsparameter
-function restParam({ username, ...restProps }) {
-  console.log(username, restProps);
-}
-
-restParam(userObj);

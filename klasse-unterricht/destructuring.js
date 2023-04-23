@@ -54,35 +54,15 @@ console.log("//mit umbenannter eigenschafte -------->");
 
 // in einfach function
 myUser = {
-  userName: "Imad",
-  lastName: "Alisawi",
-  job: {
-    beruf: "IT",
-  },
-};
-function testOne({ userName, job: { beruf } }) {
-  console.log("simple nesting =>", userName, beruf);
-}
-testOne(myUser);
+    userName: "Imad",
+    lastName: "Alisawi",
+    job: {
+      beruf: "IT",
+    },
+  };
+  function testOne({ userName,lastName, job: { beruf } }) {
+    console.log("simple nesting =>", userName,lastName, beruf);
+  }
+  testOne(myUser);
+  
 
-console.log();
-console.log("--------------------------------");
-const { a, b, c } = { a: "One A", b: "Tow B", c: "Three c" };
-console.log(a, b + a, c[0], c.indexOf("c"));
-
-const useObject = {
-  username: "Test",
-  password: "pass",
-  status: "active",
-  avartarUrl: "/avatar.jgp",
-  o: {
-    copyOrRef: "Testing",
-  },
-};
-//                            ...rest
-const { username: userNams, ...hiddensRest } = useObject;
-hiddensRest.password = "chanllge";
-
-
-console.log(useObject);
-console.log('ergebnis', hiddensRest);
