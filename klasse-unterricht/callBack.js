@@ -62,3 +62,16 @@ function paket1ZUstellung(id) {
 }
 
 packet1EinLieferung(1, packet1Transport, paket1ZUstellung);
+console.log("###########<--------------- TOW  DHL THema--------------->#########");
+console.clear()
+const balken = [
+  '--------',
+  '---',
+  '------------',
+  '----------------'
+]
+const saege = (balken) =>{
+  return balken.slice(0,2)
+} 
+console.log(balken.map(saege))
+
