@@ -11,7 +11,7 @@ student.forEach(addYear);
 console.log(student);
 
 console.log(
-  "###########<--------------- zwischen () --------------->#########"
+  "###########<--------------- zwischen One and Tow () --------------->#########"
 );
 
 function makeProject(eleArr) {
@@ -58,20 +58,10 @@ function packet1Transport(id, callback) {
 function paket1ZUstellung(id) {
   setTimeout(function () {
     console.log(`paket ${id} ist da`);
-  }, 3000);
+  }, 500);
 }
 
 packet1EinLieferung(1, packet1Transport, paket1ZUstellung);
-console.log("###########<--------------- TOW  DHL THema--------------->#########");
-console.clear()
-const balken = [
-  '--------',
-  '---',
-  '------------',
-  '----------------'
-]
-const saege = (balken) =>{
-  return balken.slice(0,2)
-} 
-console.log(balken.map(saege))
+
+
 
