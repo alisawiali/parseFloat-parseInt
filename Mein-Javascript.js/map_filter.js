@@ -21,9 +21,7 @@ console.log(addfilters);
 
 let sum = "ali alisawil lebt im stadt Bagdad";
 
-let res = sum
-  .split(" ")
-  .filter((e) => {
+let res = sum.split(" ").filter((e) => {
     return e.length >= 3;
   })
   .join(" ");
@@ -32,9 +30,7 @@ console.log(res);
 
 console.log('##############------------------------------> One');
 let con = "123Alisawi22";
-let ignor = con
-  .split("")
-  .filter((e) => {
+let ignor = con.split("").filter((e) => {
     return isNaN(parseInt(e));
   })
   .join("");
