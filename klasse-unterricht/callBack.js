@@ -63,5 +63,22 @@ function paket1ZUstellung(id) {
 
 packet1EinLieferung(1, packet1Transport, paket1ZUstellung);
 
-
+// function  packet1EinLieferung(id,callback,callback2){
+//   setTimeout(function(){
+//     console.log(`paket ${id} eingeliefert`)
+//     callback(id)
+//     callback2(id)
+//   },1000)
+// }
+// function packet1Transport(id,callback){
+//   setTimeout(function(){
+//     console.log(`paket ${id} Transporttiert`)
+//   },2000)
+// }
+// function paket1ZUstellung(id){
+//   setTimeout(function(){
+//     console.log(`paket ${id} ist da`)
+//   },3000)
+// }
+// packet1EinLieferung(1,packet1Transport,paket1ZUstellung)
 
