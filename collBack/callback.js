@@ -1,25 +1,25 @@
+console.clear();
+const posts = [
+  { title: "Post 1", content: "Deutschland" },
+  { title: "Post 2", content: "Iraq" },
+];
 
-
-let myArrayNames = ["Imad", "Alla", "Amer", "Ali", "Mari"];
-
-let emptyArra = [];
-function myFrindes(callback) {
+const myPost = () => {
   setTimeout(() => {
-    emptyArra.push(...myArrayNames);
+    let output = "";
+    posts.forEach((one, tow) => {
+      output += `<li> Ich habe zwei famlie in:  ${one.content}</li>`;
+    });
+    document.body.innerHTML = output;
+  }, 1000);
+};
 
-    console.log(emptyArra);
-    callback(emptyArra, "Imad");
-  }, 0);
-}
+const myTestThree = (prop,callBack) => {
+  setTimeout(() => {
+    posts.push(prop);
+    callBack()
+  }, 2000);
+};
 
-function findEmplyByName(emply, name) {
-  const findmap = emply.find((x) => x === name);
-  {
-    if (findmap) {
-      console.log(findmap);
-    } else {
-      console.log("Not Found");
-    }
-  }
-}
-myFrindes(findEmplyByName);
+
+myTestThree({ title: "Post 2", content: "Australien" },myPost);
