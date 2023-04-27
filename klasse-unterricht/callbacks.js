@@ -36,7 +36,7 @@ const f = () => {
 };
 f();
 console.log(btn1.display);
-
+console.log("<---------------------------------------->");
 function warp() {
   const imad = "Alisawi";
   const arr = [1, 33, 23, 4, 5];
