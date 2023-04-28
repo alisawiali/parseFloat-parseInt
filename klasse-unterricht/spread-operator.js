@@ -8,17 +8,17 @@ const euroCities = ['Berlin', 'Paris']
 const asiaCities = ['Tokyo', 'Seoul']
 const worldCities = euroCities.concat(asiaCities)
 // const worldCities = [...euroCities, ...asiaCities];
-console.log('Aufgabe 1-A : ', worldCities)
+console.log('Aufgabe 1-A : ------------------------------------------', worldCities)
 // 2.
 console.log()
 const asiaCitiesCopy = [...asiaCities]
-console.log('Aufgabe 2: ', asiaCitiesCopy)
+console.log('Aufgabe 2 :------------------------------------------------- ', asiaCitiesCopy)
 // 3.
 const array = [1, 2, 60, 5, 89, 8]
 function findLargestNumber(arr) {
     return Math.max(...arr)
 }
-console.log('Aufgabe  3:', findLargestNumber(array))
+console.log('Aufgabe  3------------------------------------------------- :', findLargestNumber(array))
 // same as
 // arrow function mit impliziten return
 // const findeLargestNumber = (arr) => Math.max(...arr)
@@ -26,16 +26,16 @@ console.log('Aufgabe  3:', findLargestNumber(array))
 function findSmallestNumber(arr) {
     return Math.min(...arr)
 }
-console.log('Aufgabe  4:', findSmallestNumber(array))
+console.log('Aufgabe  4------------------------------------------------- :', findSmallestNumber(array))
 // 5.
 const person = { name: 'John' }
 const job = { role: 'Teacher' }
 // 5.1.
 clonePerson = { ...person }
-console.log('Aufgabe  5-1:', clonePerson)
+console.log('Aufgabe  5-1------------------------------------------------- :', clonePerson)
 // 5.2.
 const employee = { ...person, ...job }
-console.log('Aufgabe  5-2:', employee)
+console.log('Aufgabe  5-2------------------------------------------------- :', employee)
 // 5.3.
 job.role = 'Plumber'
 console.log(job)
