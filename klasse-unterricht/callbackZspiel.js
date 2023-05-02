@@ -12,14 +12,14 @@ const fun = function (x) {
 
   const test = function (x) {
       let r = true
-      if(r ===  false ){
-          return thema()  + x ;
+      if(r ===  true ){
+          return thema()   ;
       }else{
-          return thema()
+          return fun()
       }
 
     };
 
-
+console.log(test())
 
 
