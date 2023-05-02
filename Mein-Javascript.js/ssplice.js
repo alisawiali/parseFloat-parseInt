@@ -4,16 +4,17 @@ Array Methode
 .. slice
 ..splice
 */ 
+console.clear()
 
 //         slice    0        1         2       3
 //         slice   -4       -3        -2      -1
 let myFrindHome = ["Omer","Amer","Imad","Alla"];
 myFrindHome[0] = "Alisawi";
-console.log('slice Methode',myFrindHome);
-console.log('slice Methode',myFrindHome.slice(1));
-console.log('slice Methode',myFrindHome.slice(1,3)); // 1 ,2 (3 X) nimmt das leste nicht an
-console.log('slice Methode',myFrindHome.slice(-2));//'Imad', 'Alla' 
-console.log('slice Methode',myFrindHome.slice(1,-1)); // Amer Imad
+console.log('slice Methode One',myFrindHome);
+console.log('slice Methode Tow ',myFrindHome.slice(1));
+console.log('slice Methode   Three',myFrindHome.slice(1,3)); // 1 ,2 (3 X) nimmt das leste nicht an
+console.log('slice Methode Vier',myFrindHome.slice(-2));//'Imad', 'Alla' 
+console.log('slice Methode  Fünf',myFrindHome.slice(1,-1)); // Amer Imad
 
 
 console.log("Splice ---------------------------->")
