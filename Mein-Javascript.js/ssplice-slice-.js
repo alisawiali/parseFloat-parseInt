@@ -21,6 +21,9 @@ console.log("Splice ---------------------------->")
 //           Anfängt,
 //            Platzt,Zahl,fügen
 myFrindHome.splice(0,1,"Bitar","Sayed")
+
+console.log(myFrindHome)
+myFrindHome.splice(myFrindHome, 1)
 console.log(myFrindHome)
 // 
 
