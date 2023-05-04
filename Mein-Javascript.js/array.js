@@ -47,4 +47,3 @@ console.log(folder.indexOf("Text")) // wenn text denn geben wir "" und wenn numb
  const conation = test1.concat(test2,test3)
 console.log(conation[2])
 
-test

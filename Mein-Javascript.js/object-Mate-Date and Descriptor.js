@@ -15,4 +15,3 @@ const myObject = {
     console.log(prop, myObject[prop]);
   }
   console.log(myObject);
-  

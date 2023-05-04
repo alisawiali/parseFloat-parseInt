@@ -7,10 +7,13 @@ const myObjects= {
 
 Object.defineProperties(myObjects,{
     c:{
+        writable:true,
+        enumerable:true,
         configurable:true,
         value:3,
     },
     d:{
+        
         configurable:true,
         value:4,
     },
