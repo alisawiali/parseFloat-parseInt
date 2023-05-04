@@ -71,7 +71,7 @@ calc
   .divideBy(4)
   .substract(20);
 
-console.log('##########-------------------------')
-  const result = calc.take(2).add(3).divideBy(2).muliplayWith(5).getRsult()
+console.log("##########-------------------------");
+const result = calc.take(2).add(3).divideBy(2).muliplayWith(5).getRsult();
 
-console.log(result) // 12.5
+console.log(result); // 12.5
