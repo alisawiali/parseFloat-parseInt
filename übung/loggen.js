@@ -9,9 +9,8 @@ class Config{
             console.log("log is not hier")
         }
     }
-}
-
-const test = new Config("Berlin")
+} 
+const test = new Config("Berlin") 
 
 test.log("hallo")
   

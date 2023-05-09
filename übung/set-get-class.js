@@ -49,7 +49,7 @@ function User(name,email,age,showemail){
     }
 }
 console.log("------------")
-const newUser = new User ("Imad","@email",19,false)
+const newUser = new User ("Imad","@email",9,false)
 console.log("result is: ",newUser.name)
 newUser.Upadte("Alisawi")
 console.log(newUser.name)
