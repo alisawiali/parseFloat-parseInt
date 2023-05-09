@@ -29,6 +29,6 @@ console.log(myfilter)
 
 // map   => changes ervey single item to somthing eles 
 const resultBooks = books.map((ele)=>{
-  return `<div> <span>${ele.name}</span>  <span>${ele.auther}</span></div> `
+  return `<div> <span>${ele.name}</span>  <span>${ele.auther}< /span></div> `
 })
 console.log(resultBooks)
