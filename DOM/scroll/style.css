@@ -1,0 +1,25 @@
+body {
+    height: 4000px;
+    cursor: pointer;
+}
+
+
+.main {
+    position: fixed;
+    bottom: 10px;
+    right: -30px;
+    background-color: #ff5722;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.main.active {
+    right: 20px;
+    background-color: red;
+}
