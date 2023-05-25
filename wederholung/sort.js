@@ -21,14 +21,10 @@ const docu = [
 //   }
 // });
 
-
-
-docu.sort((one,tow)=>{
- if(one.name === tow.name){
-    return 0
-}
-return one.name > tow.name ? 0 :-1
-
-
-})
+docu.sort((one, tow) => {
+  if (one.name === tow.name) {
+    return 0;
+  }
+  return one.name > tow.name ? 0 : -1;
+});
 console.log(docu);
