@@ -1,0 +1,24 @@
+#Parent {
+    color: red;
+    font-size: 1.4rem;
+    text-shadow: 0px 20px 10px #000;
+    margin-bottom: 3em;
+}
+
+body {
+    background-color: #333;
+    color: #ffff;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    background-color: rgb(34, 34, 35);
+    border: 2px solid red;
+    color: #bebaba;
+    padding: 1em;
+    border-radius: 20px;
+    margin: 10px;
+}
