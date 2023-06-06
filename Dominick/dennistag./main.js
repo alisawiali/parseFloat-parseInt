@@ -65,7 +65,7 @@ function tarnslate(text) {
     const head = a.indexOf(letter);
 
     if (head < 0) {
-      result += "    ";
+      result += "   ";
       continue;
     }
 
@@ -75,5 +75,4 @@ function tarnslate(text) {
 
   return result;
 }
-
-console.log(tarnslate("nanu, was passiert denn hier?"));
+console.log(tarnslate("was passiert eigentlich hier"));
