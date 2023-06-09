@@ -1,0 +1,12 @@
+{
+  "name": "loop-in-data.",
+  "version": "1.0.0",
+  "description": "",
+  "main": "loop-in-Data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
