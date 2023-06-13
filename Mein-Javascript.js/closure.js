@@ -12,8 +12,8 @@ const shop = () => {
 };
 let funck = shop();
 // console.log(funck)
-funck.printItem("hallo");
-funck.addItem("hallo");
+funck.printItem("");
+funck.addItem("");
 //-----------------------------------------------------------------------
 function sumTo(n) {
   let sum = 0;
